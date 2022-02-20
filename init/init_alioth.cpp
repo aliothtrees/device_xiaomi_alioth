@@ -102,6 +102,7 @@ void load_fprop_redfin() {
     property_override("ro.product.build.fingerprint", ro_build_fingerprint);
     property_override("ro.odm.build.fingerprint", ro_build_fingerprint);
     property_override("ro.system_ext.build.fingerprint", ro_build_fingerprint);
+
 }
 
 void load_fprop_stock_alioth() {
@@ -128,6 +129,7 @@ void load_redmi_k40() {
     property_override("ro.product.vendor.brand", "Redmi");
     property_override("ro.product.vendor.model", "M2012K11AC");
     property_override("ro.boot.product.hardware.sku", "nfc");
+    property_override("ro.product.marketname", "K40");
     load_fprop_redfin();
 }
 void load_poco_f3() {
@@ -143,6 +145,7 @@ void load_poco_f3() {
     property_override("ro.product.vendor.brand", "POCO");
     property_override("ro.product.vendor.model", "M2012K11AG");
     property_override("ro.boot.product.hardware.sku", "nfc");
+    property_override("ro.product.marketname", "POCO F3");
     load_fprop_redfin();
 }
 void load_mi11x() {
@@ -157,6 +160,7 @@ void load_mi11x() {
     property_override("ro.product.vendor.manufacturer", "Xiaomi");
     property_override("ro.product.vendor.brand", "Mi");
     property_override("ro.product.vendor.model", "M2012K11AI");
+    property_override("ro.product.marketname", "Mi 11X");
     load_fprop_redfin();
 }
 
