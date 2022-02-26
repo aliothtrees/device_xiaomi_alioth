@@ -14,6 +14,13 @@ persist.vendor.df.extcolor.proc=0
 ro.vendor.display.paneltype=2
 vendor.display.defer_fps_frame_count=2
 
+# Refresh Rate
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.set_idle_timer_ms=80
+ro.surface_flinger.set_touch_timer_ms=200
+ro.surface_flinger.use_content_detection_for_refresh_rate=true
+vendor.display.idle_time=1100
+
 # Haptic
 sys.haptic.down.normal=2
 sys.haptic.down.strong=5
