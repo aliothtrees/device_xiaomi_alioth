@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-<!--  DT2W    -->
-    <string name="dt2w_enable_title">Double-Tap to Wake </string>
-    <string name="dt2w_enable_summary">Display wake up from doze by a double-tap</string>
-
-    <!-- Features Menu-->
-    <string name="feature_display_title">Display features</string>
-    <string name="feature_display_summary">Double tap to wake</string>
 
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Clear speaker</string>
@@ -24,17 +17,6 @@
     <string name="thermal_dialer">Dialer</string>
     <string name="thermal_gaming">Gaming</string>
     <string name="thermal_youtube">Youtube</string>
-
-    <!-- Touch Control Settings -->
-    <string name="touch_control_title">Touch Control</string>
-    <string name="touch_game_mode_title">Enable game mode</string>
-    <string name="touch_game_mode_summary">Increases touch sampling rate to 180Hz</string>
-    <string name="touch_response_title">Touch response</string>
-    <string name="touch_response_summary">Controls touch response</string>
-    <string name="touch_sensitivity_title">Touch sensitivity</string>
-    <string name="touch_sensitivity_summary">Controls touch sensitivity for repeated taps</string>
-    <string name="touch_resistant_title">Touch-resistant area</string>
-    <string name="touch_resistant_summary">Reduce touch sensitivity near the edges to avoid triggering touch controls</string>
 
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Refresh Rate</string>
