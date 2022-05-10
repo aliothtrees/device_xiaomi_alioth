@@ -8,10 +8,10 @@
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 # Inherit some common Descendant stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_alioth
+PRODUCT_NAME := corvus_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_BRAND := POCO
 PRODUCT_MANUFACTURER := Xiaomi
@@ -22,13 +22,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# AEX
+# corvus
 TARGET_FACE_UNLOCK_SUPPORTED := true
-USE_PIXEL_CHARGER_IMAGES := true
-TARGET_SHIP_GCAM_GO := true
 TARGET_SUPPORTS_BLUR := true
-TARGET_SUPPORTS_QUICK_TAP  := true
 PRODUCT_BOARD_PLATFORM := kona
 PRODUCT_USES_QCOM_HARDWARE := true
-WITH_GMS := true
-WITH_GAPPS := true
+
